@@ -1,88 +1,83 @@
 # Website User Behaviour & Conversion Insights
 
-An interactive analytics project that analyzes website user engagement, traffic sources, device usage, and conversion behavior using **Python** and **Power BI**.
-
----
-
 ## Project Overview
 
-This project focuses on understanding how users interact with a website and identifying factors that influence conversions.
-
-The analysis includes:
-
-- Most Visited Pages
-- Traffic Source Analysis
-- Average Time Spent by Page
-- User Interaction by Page
-- Device Usage Patterns
-- Average Scroll Depth
-- Website Traffic Trends
-- Conversion Rate Analysis
+This project analyzes website user behavior and conversion patterns using **Python** and **Power BI**. The objective is to understand how users interact with different website pages, identify high-performing traffic sources, analyze device usage patterns, and generate business insights to improve conversions.
 
 ---
 
-## Tools & Technologies
+## Features
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Google Colab
-- Power BI
+* Most Visited Pages Analysis
+* Traffic Source Analysis
+* Average Time Spent by Page
+* User Interaction by Page
+* Device Usage Distribution
+* Average Scroll Depth Analysis
+* Website Traffic Trend Analysis
+* Conversion Rate Insights
+* Business Recommendations
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Google Colab
+* Power BI
 
 ---
 
 ## Dataset
 
-The dataset contains website user behavior information such as:
+The dataset contains website analytics information, including:
 
-- Sessions
-- Traffic Sources
-- Page Visits
-- Device Types
-- Scroll Depth
-- Time Spent
-- Conversion Status
+* User Sessions
+* Traffic Sources
+* Device Types
+* Pages Visited
+* Time Spent
+* Scroll Depth
+* Conversion Status
 
-Dataset file:
+**Dataset File:** `processed_website_data.csv`
+
+---
+
+## Repository Structure
 
 ```text
-processed_website_data.csv
+├── Website_Behaviour_Analytics.ipynb
+├── processed_website_data.csv
+├── Website user interaction dashboard.pbix
+├── dashboard.png
+└── README.md
 ```
 
 ---
+The dashboard provides:
 
-## Files in this Repository
-
-| File | Description |
-|------|-------------|
-| Website_Behaviour_Analytics.ipynb | Python analysis notebook |
-| processed_website_data.csv | Cleaned dataset |
-| Website user interaction dashboard.pbix | Power BI dashboard |
-| Dashboard.png.png | Dashboard screenshot |
-| README.md | Project documentation |
-
----
-
-## Dashboard Preview
-
-Upload your dashboard screenshot and use:
-
-```markdown
-![Dashboard](Dashboard.png.png)
-```
-
-After uploading, GitHub will display the image automatically.
+* Total Users
+* Total Sessions
+* Average Time Spent
+* Conversion Rate
+* Traffic Source Performance
+* Device Usage Patterns
+* Scroll Depth by Page
+* Website Traffic Trends
 
 ---
 
 ## Key Insights
 
-- Blog and Checkout pages receive high user engagement.
-- Google is one of the major traffic sources.
-- Mobile devices contribute a significant share of website visits.
-- Pricing and Checkout pages show strong conversion potential.
-- Scroll depth decreases on informational pages, indicating optimization opportunities.
+* Blog and Checkout pages receive high user engagement.
+* Google is one of the major traffic sources.
+* Mobile users contribute significantly to website traffic.
+* Pricing and Checkout pages show strong conversion opportunities.
+* Scroll depth analysis reveals optimization opportunities for content pages.
 
 ---
 
@@ -102,12 +97,12 @@ After uploading, GitHub will display the image automatically.
 
 ---
 
-## Future Improvements
+## Bonus Features
 
-- Customer Segmentation
-- Conversion Prediction using Machine Learning
-- Real-time Dashboard Integration
-- AI-generated Business Insights
+* User Segmentation
+* Customer Clustering using Machine Learning
+* Conversion Prediction
+* AI-Generated Business Insights
 
 ---
 
@@ -115,6 +110,6 @@ After uploading, GitHub will display the image automatically.
 
 **Annalin Femi J K**
 
-AI & Machine Learning Internship Task 3
+AI & Machine Learning Internship - Task 3
 
 Website User Behaviour & Conversion Insights
